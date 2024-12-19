@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(#000000, #878787);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+img{
+    max-width: 450px;
+    padding: .5rem;
+}
+a{
+    align-items: center;
+}
+section{
+    text-align: center;
+    padding: 1rem;
+}
+header{
+    text-align: center;
+}
+a:visited{
+    color: #29abe2;
+}
+.media img{
+    max-height: 50px;
+    padding: 1rem;
+}
+@media (min-width:1000px){
+    body{
+        font-size: 20px;
+    }
+    img{
+        max-width: 950px;
+        padding: .5rem;
+    }
+    header{
+        text-align: center;
+    }
+    section{
+        text-align: center;
+    }
+    .media img{
+        max-height: 200px;
+    }
+}
