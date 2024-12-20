@@ -4,7 +4,7 @@ body{
     color: white;
 }
 img{
-    max-width: 450px;
+    max-width: 425px;
     padding: .5rem;
 }
 a{
@@ -16,6 +16,9 @@ section{
 }
 header{
     text-align: center;
+}
+header img{
+    max-width: 300px;
 }
 a:visited{
     color: #29abe2;
@@ -34,6 +37,9 @@ a:visited{
     }
     header{
         text-align: center;
+    }
+    header img{
+        max-width: 500px;
     }
     section{
         text-align: center;
